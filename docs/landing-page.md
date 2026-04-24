@@ -40,8 +40,9 @@ The landing page is the first screen in the web shell. It should feel calm, futu
 
 ## Visual direction
 - dark, soft, high-contrast surface
-- subtle orange gradients and glows
-- rounded cards
+- neon orange/coral glow pulses
+- HUD-style separators and status markers
+- rounded glassy cards
 - clear typographic hierarchy
 - restrained motion rather than heavy animation
 - slightly more futuristic scanline / glass treatment
