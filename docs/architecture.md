@@ -2,10 +2,14 @@
 
 ## Product shape
 - Homepage / landing: assistant presence and quick navigation
+- Landing page: calm futuristic control-room entry point
 - Dashboard: tasks, agents, live status, and modules
 - Project Builder: guided intake that asks questions until the plan is clear
-- Office: animated visual home base
+- Web dashboard: stays simple and functional
+- Godot experience: separate advanced interactive/animated layer
+- design notes: TAU-Wiki `ProjectTAU Godot Companion Architecture`
 - Chat: persistent comms panel, usually docked
+- Content: dummy data only for now
 
 ## Module boundaries
 - layout and routing live in the web shell

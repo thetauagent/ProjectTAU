@@ -7,7 +7,8 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "echo 'Scaffold only: choose the app shell before running dev.'",
+    "dev": "python3 -m http.server 4173 --directory apps/web-shell",
+    "serve:web-shell": "python3 -m http.server 4173 --directory apps/web-shell",
     "check": "echo 'Scaffold only: no app is wired yet.'",
     "build": "echo 'Scaffold only: no app is wired yet.'"
   }

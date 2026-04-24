@@ -2,6 +2,7 @@ node_modules/
 .svelte-kit/
 dist/
 coverage/
+.hermes/
 .DS_Store
 Thumbs.db
 *.log
