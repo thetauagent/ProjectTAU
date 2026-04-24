@@ -14,7 +14,7 @@ The landing page is the first screen in the web shell. It should feel calm, futu
 1. **Top bar**
    - ProjectTAU title
    - short status cue
-   - links to the dashboard subdomain and wiki subdomain
+   - links to the dashboard route and wiki route
 
 2. **Hero section**
    - short headline

@@ -6,7 +6,7 @@
     <title>ProjectTAU</title>
     <meta
       name="description"
-      content="ProjectTAU landing page — a simple public entry point with separate dashboard and wiki subdomains plus a Godot companion layer."
+      content="ProjectTAU landing page — a simple public entry point with separate dashboard and wiki routes plus a Godot companion layer."
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
@@ -18,8 +18,8 @@
           <h1>Landing page for the TAU system</h1>
         </div>
         <div class="status-row">
-          <a class="ghost-button nav-link" href="https://dashboard.projecttau.example">Dashboard subdomain</a>
-          <a class="ghost-button nav-link" href="https://wiki.projecttau.example">Wiki subdomain</a>
+          <a class="ghost-button nav-link" href="/dashboard">Dashboard</a>
+          <a class="ghost-button nav-link" href="/wiki">Wiki</a>
         </div>
       </header>
 
@@ -31,21 +31,21 @@
           </div>
           <div class="hero-grid">
             <div class="hero-copy">
-              <h2>The landing page is the front door. The dashboard and wiki live on separate subdomains.</h2>
+              <h2>The landing page is the front door. The dashboard and wiki live on separate routes.</h2>
               <p>
                 ProjectTAU keeps the public root page simple and calm. The working dashboard sits on its own
-                subdomain, the wiki sits on its own subdomain, and the Godot companion stays separate as an
+                route, the wiki sits on its own route, and the Godot companion stays separate as an
                 advanced layer.
               </p>
               <div class="signal-strip" aria-label="Current surface summary">
                 <span>Root landing page</span>
-                <span>Dashboard subdomain</span>
-                <span>Wiki subdomain</span>
+                <span>Dashboard route</span>
+                <span>Wiki route</span>
               </div>
               <div class="actions">
                 <button class="primary-button" type="button">Start project builder</button>
-                <a class="secondary-button nav-link" href="https://dashboard.projecttau.example">Open dashboard</a>
-                <a class="secondary-button nav-link" href="https://wiki.projecttau.example">Open wiki</a>
+                <a class="secondary-button nav-link" href="/dashboard">Open dashboard</a>
+                <a class="secondary-button nav-link" href="/wiki">Open wiki</a>
               </div>
             </div>
             <div class="hero-side">
@@ -73,7 +73,7 @@
               <article class="workspace-card">
                 <span class="workspace-chip">01</span>
                 <h3>Dashboard</h3>
-                <p>Task summary and quick shortcuts on the dashboard subdomain.</p>
+                <p>Task summary and quick shortcuts on the dashboard route.</p>
               </article>
               <article class="workspace-card">
                 <span class="workspace-chip">02</span>
@@ -83,7 +83,7 @@
               <article class="workspace-card">
                 <span class="workspace-chip">03</span>
                 <h3>Wiki</h3>
-                <p>Knowledge pages stay on their own subdomain.</p>
+                <p>Knowledge pages stay on their own route.</p>
               </article>
               <article class="workspace-card">
                 <span class="workspace-chip">04</span>
@@ -210,8 +210,8 @@
 
       <footer class="shell-footer">
         <span>Landing page</span>
-        <span>Dashboard subdomain</span>
-        <span>Wiki subdomain</span>
+        <span>Dashboard route</span>
+        <span>Wiki route</span>
         <span>Godot companion reserved</span>
       </footer>
     </div>

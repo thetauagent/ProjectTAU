@@ -3,10 +3,10 @@
 ## Product shape
 - Homepage / landing: assistant presence and quick navigation
 - Landing page: public root domain entry point
-- Dashboard: lives on a separate dashboard subdomain
-- Wiki: lives on a separate wiki subdomain
+- Dashboard: lives on a separate dashboard route
+- Wiki: lives on a separate wiki route
 - Project Builder: guided intake that asks questions until the plan is clear
-- Web dashboard: stays simple and functional on the dashboard subdomain
+- Web dashboard: stays simple and functional on the dashboard route
 - Godot experience: separate advanced interactive/animated layer
 - design notes: TAU-Wiki `ProjectTAU Godot Companion Architecture`
 - Chat: persistent comms panel, usually docked

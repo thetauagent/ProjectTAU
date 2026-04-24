@@ -1,6 +1,6 @@
 # ProjectTAU
 
-ProjectTAU is the fresh scaffold for the next TAU interface: a public landing page, a dashboard subdomain, a separate wiki subdomain, and a separate advanced Godot experience for interactive/animated extra layers.
+ProjectTAU is the fresh scaffold for the next TAU interface: a public landing page, a dashboard route, a separate wiki route, and a separate advanced Godot experience for interactive/animated extra layers.
 
 ## Product goals
 - focus on UI/UX first
@@ -22,11 +22,11 @@ Responsible for:
 - login and boot
 - routing
 - public landing page / root domain
-- dashboard layout on a separate subdomain
+- dashboard layout on a separate route
 - top bar / navigation
 - workspace switching
 - docking chat
-- project builder entry points and outbound links to dashboard/wiki subdomains
+- project builder entry points and outbound links to dashboard/wiki routes
 
 ### `apps/office`
 The separate Godot-powered experience / interactive layer.
