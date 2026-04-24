@@ -2,14 +2,14 @@
 
 ## Product shape
 - Homepage / landing: assistant presence and quick navigation
-- Landing page: calm futuristic control-room entry point
-- Dashboard: tasks, agents, live status, and modules
+- Landing page: public root domain entry point
+- Dashboard: lives on a separate dashboard subdomain
+- Wiki: lives on a separate wiki subdomain
 - Project Builder: guided intake that asks questions until the plan is clear
-- Web dashboard: stays simple and functional
+- Web dashboard: stays simple and functional on the dashboard subdomain
 - Godot experience: separate advanced interactive/animated layer
 - design notes: TAU-Wiki `ProjectTAU Godot Companion Architecture`
 - Chat: persistent comms panel, usually docked
-- Content: dummy data only for now
 
 ## Module boundaries
 - layout and routing live in the web shell

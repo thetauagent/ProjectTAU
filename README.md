@@ -1,6 +1,6 @@
 # ProjectTAU
 
-ProjectTAU is the fresh scaffold for the next TAU interface: a simple web dashboard plus a separate advanced Godot experience for interactive/animated extra layers.
+ProjectTAU is the fresh scaffold for the next TAU interface: a public landing page, a dashboard subdomain, a separate wiki subdomain, and a separate advanced Godot experience for interactive/animated extra layers.
 
 ## Product goals
 - focus on UI/UX first
@@ -11,7 +11,7 @@ ProjectTAU is the fresh scaffold for the next TAU interface: a simple web dashbo
 - keep chat available without making the app chat-first
 - provide a guided project-builder flow that asks questions until the plan is clear
 - allow future Hermes instances to be added later
-- temporarily ship the frontend as a public GitHub Pages demo
+- keep the public landing page separate from the dashboard and wiki surfaces
 
 ## Planned application structure
 
@@ -21,12 +21,12 @@ The main application shell.
 Responsible for:
 - login and boot
 - routing
-- landing page / first webview
-- dashboard layout
+- public landing page / root domain
+- dashboard layout on a separate subdomain
 - top bar / navigation
 - workspace switching
 - docking chat
-- project builder entry points
+- project builder entry points and outbound links to dashboard/wiki subdomains
 
 ### `apps/office`
 The separate Godot-powered experience / interactive layer.

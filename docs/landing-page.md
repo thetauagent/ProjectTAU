@@ -5,23 +5,24 @@ The landing page is the first screen in the web shell. It should feel calm, futu
 
 ## Goals
 - make the product identity obvious in seconds
-- provide quick entry into the dashboard and project builder
+- provide quick entry into the dashboard, the wiki, and the project builder
 - show the current system state at a glance
 - keep the page simple, spacious, and easy to scan
 - leave room for the Godot companion layer as a separate experience
 
 ## Content blocks
 1. **Top bar**
-   - ProjectTAU logo/title
-   - status pill
-   - primary action button
+   - ProjectTAU title
+   - short status cue
+   - links to the dashboard subdomain and wiki subdomain
 
 2. **Hero section**
    - short headline
    - one-sentence explanation
-   - primary and secondary actions
+   - primary action button
+   - secondary links to dashboard and wiki
    - surface summary chips
-   - side cards for core and companion mode
+   - side cards for root landing page and site split
 
 3. **Workspace overview**
    - a few module cards only

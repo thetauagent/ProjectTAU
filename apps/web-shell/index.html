@@ -6,7 +6,7 @@
     <title>ProjectTAU</title>
     <meta
       name="description"
-      content="ProjectTAU landing page — a simple, futuristic web shell with a separate Godot companion layer."
+      content="ProjectTAU landing page — a simple public entry point with separate dashboard and wiki subdomains plus a Godot companion layer."
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
@@ -15,11 +15,11 @@
       <header class="topbar">
         <div class="brand-block">
           <p class="eyebrow">ProjectTAU</p>
-          <h1>Command center for your personal system</h1>
+          <h1>Landing page for the TAU system</h1>
         </div>
         <div class="status-row">
-          <span class="pill pill--ok">System online</span>
-          <button class="ghost-button" type="button">Open dashboard</button>
+          <a class="ghost-button nav-link" href="https://dashboard.projecttau.example">Dashboard subdomain</a>
+          <a class="ghost-button nav-link" href="https://wiki.projecttau.example">Wiki subdomain</a>
         </div>
       </header>
 
@@ -27,35 +27,37 @@
         <section class="card panel panel--hero">
           <div class="panel__header">
             <p class="eyebrow">Web shell</p>
-            <span class="panel__meta">Calm front-end prototype</span>
+            <span class="panel__meta">Public landing page</span>
           </div>
           <div class="hero-grid">
             <div class="hero-copy">
-              <h2>Simple dashboard. Strong structure. Room for the animated layer.</h2>
+              <h2>The landing page is the front door. The dashboard and wiki live on separate subdomains.</h2>
               <p>
-                ProjectTAU keeps the main web experience calm and functional while the Godot
-                companion handles immersive scenes, motion, and presence.
+                ProjectTAU keeps the public root page simple and calm. The working dashboard sits on its own
+                subdomain, the wiki sits on its own subdomain, and the Godot companion stays separate as an
+                advanced layer.
               </p>
               <div class="signal-strip" aria-label="Current surface summary">
-                <span>Web shell ready</span>
-                <span>Dummy content only</span>
-                <span>Godot companion reserved</span>
+                <span>Root landing page</span>
+                <span>Dashboard subdomain</span>
+                <span>Wiki subdomain</span>
               </div>
               <div class="actions">
                 <button class="primary-button" type="button">Start project builder</button>
-                <button class="secondary-button" type="button">Review workspaces</button>
+                <a class="secondary-button nav-link" href="https://dashboard.projecttau.example">Open dashboard</a>
+                <a class="secondary-button nav-link" href="https://wiki.projecttau.example">Open wiki</a>
               </div>
             </div>
             <div class="hero-side">
               <div class="mini-card mini-card--accent">
-                <span class="mini-label">Core mode</span>
-                <strong>Dashboard-first</strong>
-                <p>Fast routes, simple panels, and a clean starting point.</p>
+                <span class="mini-label">Root page</span>
+                <strong>Simple landing</strong>
+                <p>One public entry point for orientation and fast navigation.</p>
               </div>
               <div class="mini-card">
-                <span class="mini-label">Companion mode</span>
-                <strong>Immersive layer</strong>
-                <p>Reserved for the Godot scene space and motion-heavy work.</p>
+                <span class="mini-label">Site split</span>
+                <strong>Dashboard + wiki</strong>
+                <p>Each major surface gets its own host so the experiences stay clean.</p>
               </div>
             </div>
           </div>
@@ -71,7 +73,7 @@
               <article class="workspace-card">
                 <span class="workspace-chip">01</span>
                 <h3>Dashboard</h3>
-                <p>Task summary and quick shortcuts.</p>
+                <p>Task summary and quick shortcuts on the dashboard subdomain.</p>
               </article>
               <article class="workspace-card">
                 <span class="workspace-chip">02</span>
@@ -80,8 +82,8 @@
               </article>
               <article class="workspace-card">
                 <span class="workspace-chip">03</span>
-                <h3>Chat</h3>
-                <p>Persistent communication panel.</p>
+                <h3>Wiki</h3>
+                <p>Knowledge pages stay on their own subdomain.</p>
               </article>
               <article class="workspace-card">
                 <span class="workspace-chip">04</span>
@@ -207,8 +209,9 @@
       </main>
 
       <footer class="shell-footer">
-        <span>Dummy content prototype</span>
-        <span>Frontend layout only</span>
+        <span>Landing page</span>
+        <span>Dashboard subdomain</span>
+        <span>Wiki subdomain</span>
         <span>Godot companion reserved</span>
       </footer>
     </div>

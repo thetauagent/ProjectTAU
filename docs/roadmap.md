@@ -2,7 +2,7 @@
 
 ## Phase 1
 - define the shell
-- define the web dashboard shell
+- define the public landing page, dashboard subdomain, and wiki subdomain split
 - define workspace presets
 - define chat placement
 - define the project-builder flow
