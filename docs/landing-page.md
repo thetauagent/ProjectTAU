@@ -44,6 +44,7 @@ The landing page is the first screen in the web shell. It should feel calm, futu
 - rounded cards
 - clear typographic hierarchy
 - restrained motion rather than heavy animation
+- slightly more futuristic scanline / glass treatment
 
 ## Layout rule
 The landing page should read like a control room, not a marketing site.
