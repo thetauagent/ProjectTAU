@@ -13,30 +13,48 @@ The landing page is the first screen in the web shell. It should feel calm, futu
 ## Content blocks
 1. **Top bar**
    - ProjectTAU logo/title
-   - simple status pill
+   - status pills
    - primary action button
 
 2. **Hero section**
    - short headline
    - one-sentence explanation
    - primary and secondary actions
+   - surface summary chips
 
-3. **Quick actions**
+3. **Overview metrics**
+   - workspace count
+   - module count
+   - voice state
+   - sync state
+
+4. **Command deck**
    - Open dashboard
-   - Start project builder
-   - Review workspace
+   - Start builder
+   - View modules
    - Launch companion layer
 
 4. **Workspace overview**
    - active modules
    - placeholder cards for dashboard areas
-   - recent activity summary
+   - future module map
+   - right-rail activity and signal trace
 
-5. **System status**
+5. **Today / timeline**
+   - current focus
+   - dummy next steps
+   - explicit project direction
+
+6. **System status**
    - TAU online
    - voice idle
    - sync healthy
    - Godot layer available
+
+7. **Companion layer**
+   - the separate Godot / Office boundary
+   - shared state bridge concept
+   - preview of an immersive scene surface
 
 ## Visual direction
 - dark, soft, high-contrast surface

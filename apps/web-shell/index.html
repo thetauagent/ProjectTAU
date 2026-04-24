@@ -13,43 +13,90 @@
   <body>
     <div class="shell">
       <header class="topbar">
-        <div>
+        <div class="brand-block">
           <p class="eyebrow">ProjectTAU</p>
           <h1>Command center for your personal system</h1>
         </div>
         <div class="status-row">
           <span class="pill pill--ok">System online</span>
+          <span class="pill">Build 0.1</span>
           <button class="ghost-button" type="button">Open dashboard</button>
         </div>
       </header>
 
-      <main class="grid">
-        <section class="hero card">
-          <p class="eyebrow">Web shell</p>
-          <h2>Simple dashboard. Strong structure. Room for the animated layer.</h2>
-          <p>
-            ProjectTAU keeps the main web experience calm and functional while the Godot
-            companion handles immersive scenes, motion, and presence.
-          </p>
-          <div class="actions">
-            <button class="primary-button" type="button">Start project builder</button>
-            <button class="secondary-button" type="button">Review workspaces</button>
+      <main class="dashboard">
+        <section class="card panel panel--hero">
+          <div class="panel__header">
+            <p class="eyebrow">Web shell</p>
+            <span class="panel__meta">Calm front-end prototype</span>
+          </div>
+          <div class="hero-grid">
+            <div class="hero-copy">
+              <h2>Simple dashboard. Strong structure. Room for the animated layer.</h2>
+              <p>
+                ProjectTAU keeps the main web experience calm and functional while the Godot
+                companion handles immersive scenes, motion, and presence.
+              </p>
+              <div class="signal-strip" aria-label="Current surface summary">
+                <span>Web shell ready</span>
+                <span>Godot companion linked</span>
+                <span>Dummy content only</span>
+              </div>
+              <div class="actions">
+                <button class="primary-button" type="button">Start project builder</button>
+                <button class="secondary-button" type="button">Review workspaces</button>
+              </div>
+            </div>
+            <div class="hero-side">
+              <div class="mini-card mini-card--accent">
+                <span class="mini-label">Core mode</span>
+                <strong>Dashboard-first</strong>
+                <p>Fast routes, simple panels, and a clean starting point.</p>
+              </div>
+              <div class="mini-card">
+                <span class="mini-label">Companion mode</span>
+                <strong>Immersive layer</strong>
+                <p>Reserved for the Godot scene space and motion-heavy work.</p>
+              </div>
+            </div>
           </div>
         </section>
 
-        <section class="card spotlight">
-          <p class="eyebrow">Today</p>
-          <h3>Focus: design the first usable workspace</h3>
-          <ul class="checklist">
-            <li>dummy content only</li>
-            <li>simple navigation and layout</li>
-            <li>clear path to the Godot companion layer</li>
-          </ul>
-        </section>
+        <aside class="card panel panel--metrics">
+          <div class="panel__header">
+            <p class="eyebrow">Overview</p>
+            <span class="panel__meta">Live dummy metrics</span>
+          </div>
+          <div class="metric-grid">
+            <article class="metric-tile">
+              <span class="metric-label">Workspaces</span>
+              <strong>04</strong>
+              <small>active presets</small>
+            </article>
+            <article class="metric-tile">
+              <span class="metric-label">Modules</span>
+              <strong>12</strong>
+              <small>available slots</small>
+            </article>
+            <article class="metric-tile">
+              <span class="metric-label">Voice</span>
+              <strong>Idle</strong>
+              <small>ready to listen</small>
+            </article>
+            <article class="metric-tile">
+              <span class="metric-label">Sync</span>
+              <strong>Healthy</strong>
+              <small>shell aligned</small>
+            </article>
+          </div>
+        </aside>
 
-        <section class="card actions-panel">
-          <p class="eyebrow">Quick actions</p>
-          <div class="action-list">
+        <section class="card panel panel--command">
+          <div class="panel__header">
+            <p class="eyebrow">Command deck</p>
+            <span class="panel__meta">Primary routes and quick actions</span>
+          </div>
+          <div class="command-row">
             <button type="button">Open dashboard</button>
             <button type="button">Start builder</button>
             <button type="button">View modules</button>
@@ -57,51 +104,171 @@
           </div>
         </section>
 
-        <section class="card workspace-panel">
-          <div class="section-head">
+        <section class="card panel panel--workspace">
+          <div class="panel__header">
             <p class="eyebrow">Workspace overview</p>
-            <span class="small-muted">Dummy layout</span>
+            <span class="panel__meta">Dummy layout / future module map</span>
           </div>
-          <div class="cards">
-            <article>
-              <h3>Dashboard</h3>
-              <p>Task summary, live status, and useful shortcuts.</p>
-            </article>
-            <article>
-              <h3>Project Builder</h3>
-              <p>Guided intake that asks questions until the plan is clear.</p>
-            </article>
-            <article>
-              <h3>Chat</h3>
-              <p>Persistent communication panel, docked but not dominant.</p>
-            </article>
-            <article>
-              <h3>Godot Layer</h3>
-              <p>Animated Office scene, voice presence, and visual flourishes.</p>
-            </article>
+          <div class="workspace-layout">
+            <div class="workspace-grid">
+              <article class="workspace-card">
+                <span class="workspace-chip">01</span>
+                <h3>Dashboard</h3>
+                <p>Task summary, live status, and useful shortcuts.</p>
+              </article>
+              <article class="workspace-card">
+                <span class="workspace-chip">02</span>
+                <h3>Project Builder</h3>
+                <p>Guided intake that asks questions until the plan is clear.</p>
+              </article>
+              <article class="workspace-card">
+                <span class="workspace-chip">03</span>
+                <h3>Chat</h3>
+                <p>Persistent communication panel, docked but not dominant.</p>
+              </article>
+              <article class="workspace-card">
+                <span class="workspace-chip">04</span>
+                <h3>Godot Layer</h3>
+                <p>Animated Office scene, voice presence, and visual flourishes.</p>
+              </article>
+            </div>
+            <aside class="workspace-aside">
+              <div class="mini-card">
+                <span class="mini-label">Recent activity</span>
+                <strong>Layout pass in progress</strong>
+                <p>Dashboard structure is being expanded with dummy modules first.</p>
+              </div>
+              <div class="mini-card">
+                <span class="mini-label">Active modules</span>
+                <strong>Shell, Builder, Voice, Office</strong>
+                <p>Each module gets a slot in the future workspace system.</p>
+              </div>
+              <div class="mini-card mini-card--chart">
+                <span class="mini-label">Signal trace</span>
+                <div class="spark-bars" aria-hidden="true">
+                  <span style="--h: 42%"></span>
+                  <span style="--h: 68%"></span>
+                  <span style="--h: 55%"></span>
+                  <span style="--h: 80%"></span>
+                  <span style="--h: 36%"></span>
+                  <span style="--h: 62%"></span>
+                </div>
+                <p>Layout queue and workspace density.</p>
+              </div>
+              <div class="mini-card mini-card--accent">
+                <span class="mini-label">Docking mode</span>
+                <strong>System control surface</strong>
+                <p>Keep the center simple and let the right rail carry status/detail.</p>
+              </div>
+            </aside>
           </div>
         </section>
 
-        <aside class="card status-panel">
-          <p class="eyebrow">System status</p>
-          <div class="status-item">
-            <span>TAU</span>
-            <strong>Online</strong>
+        <section class="card panel panel--timeline">
+          <div class="panel__header">
+            <p class="eyebrow">Today</p>
+            <span class="panel__meta">Current focus and next steps</span>
           </div>
-          <div class="status-item">
-            <span>Voice</span>
-            <strong>Idle</strong>
+          <h3>Focus: design the first usable workspace</h3>
+          <ol class="timeline-list">
+            <li>
+              <span class="timeline-dot"></span>
+              <div>
+                <strong>Dummy content only</strong>
+                <p>Keep the experience safe, readable, and easy to revise.</p>
+              </div>
+            </li>
+            <li>
+              <span class="timeline-dot"></span>
+              <div>
+                <strong>Simple navigation and layout</strong>
+                <p>Make the first path obvious before adding depth.</p>
+              </div>
+            </li>
+            <li>
+              <span class="timeline-dot"></span>
+              <div>
+                <strong>Clear path to the Godot companion layer</strong>
+                <p>Keep the scene boundary visible without making it the default.</p>
+              </div>
+            </li>
+          </ol>
+        </section>
+
+        <aside class="card panel panel--status">
+          <div class="panel__header">
+            <p class="eyebrow">System status</p>
+            <span class="panel__meta">Static indicators</span>
           </div>
-          <div class="status-item">
-            <span>Sync</span>
-            <strong>Healthy</strong>
-          </div>
-          <div class="status-item">
-            <span>Godot</span>
-            <strong>Available</strong>
+          <div class="status-list">
+            <div class="status-item">
+              <span>TAU</span>
+              <strong>Online</strong>
+            </div>
+            <div class="status-item">
+              <span>Voice</span>
+              <strong>Idle</strong>
+            </div>
+            <div class="status-item">
+              <span>Sync</span>
+              <strong>Healthy</strong>
+            </div>
+            <div class="status-item">
+              <span>Godot</span>
+              <strong>Available</strong>
+            </div>
           </div>
         </aside>
+
+        <section class="card panel panel--companion">
+          <div class="panel__header">
+            <p class="eyebrow">Companion layer</p>
+            <span class="panel__meta">Separate immersive surface</span>
+          </div>
+          <div class="companion-grid">
+            <div class="companion-preview">
+              <div class="viewport-frame">
+                <div class="viewport-top">
+                  <span>Scene preview</span>
+                  <span>Office shell</span>
+                </div>
+                <div class="viewport-core">
+                  <div class="viewport-rings"></div>
+                  <div class="viewport-center">Godot layer</div>
+                </div>
+                <div class="viewport-footer">
+                  <span>Motion lane</span>
+                  <span>Audio lane</span>
+                  <span>State bridge</span>
+                </div>
+              </div>
+            </div>
+            <div class="companion-stack">
+              <div class="mini-card">
+                <span class="mini-label">Scene focus</span>
+                <strong>Office space</strong>
+                <p>Animated presence and spatial cues stay in a separate surface.</p>
+              </div>
+              <div class="mini-card">
+                <span class="mini-label">State bridge</span>
+                <strong>Shared context</strong>
+                <p>The web shell remains the source of truth for workspace state.</p>
+              </div>
+              <div class="mini-card mini-card--accent">
+                <span class="mini-label">Launch path</span>
+                <strong>Companion mode</strong>
+                <p>When the Office layer is ready, it can open from this shell.</p>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
+
+      <footer class="shell-footer">
+        <span>Dummy content prototype</span>
+        <span>Frontend layout only</span>
+        <span>Godot companion reserved</span>
+      </footer>
     </div>
   </body>
 </html>
