@@ -11,6 +11,7 @@ ProjectTAU is the fresh scaffold for the next TAU interface: a simple web dashbo
 - keep chat available without making the app chat-first
 - provide a guided project-builder flow that asks questions until the plan is clear
 - allow future Hermes instances to be added later
+- temporarily ship the frontend as a public GitHub Pages demo
 
 ## Planned application structure
 
