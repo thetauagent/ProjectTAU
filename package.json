@@ -1,0 +1,14 @@
+{
+  "name": "projecttau",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "echo 'Scaffold only: choose the app shell before running dev.'",
+    "check": "echo 'Scaffold only: no app is wired yet.'",
+    "build": "echo 'Scaffold only: no app is wired yet.'"
+  }
+}
