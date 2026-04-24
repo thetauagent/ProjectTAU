@@ -40,7 +40,7 @@ The landing page is the first screen in the web shell. It should feel calm, futu
 
 ## Visual direction
 - dark, soft, high-contrast surface
-- subtle gradients and glows
+- subtle orange gradients and glows
 - rounded cards
 - clear typographic hierarchy
 - restrained motion rather than heavy animation
